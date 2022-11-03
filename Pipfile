@@ -5,11 +5,16 @@ name = "pypi"
 
 [packages]
 requests = "*"
-beautifulsoup4 = "*"
-pandas = "*"
 invoke = "==1.4.1"
 selenium = "*"
 webdriver_manager = "*"
-
-[dev-packages]
+black = "*"
+pylint = "*"
+pycodestyle = "*"
+vulture = "*"
+mypy = "*"
+pyflakes= "*"
 pytest = "*"
+
+[scripts]
+test = "pytest"
