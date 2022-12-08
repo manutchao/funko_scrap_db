@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+invoke = "==1.4.1"
+selenium = "*"
+webdriver_manager = "*"
+black = "*"
+pylint = "*"
+pycodestyle = "*"
+vulture = "*"
+mypy = "*"
+pyflakes= "*"
+pytest = "*"
+
+[scripts]
+test = "pytest"
